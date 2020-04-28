@@ -1,4 +1,19 @@
-# search_gif_flutter
+# Search Gif`s
+
+> App for searching and sharing gifs!
+
+<h3 align="center">
+<img alt="Flutter app" 
+    src="https://github.com/matheusTA/search_gif_flutter/blob/master/screenshots/screen1.PNG?raw=true" width="180px"/>
+  <img alt="Flutter App" 
+    src="https://github.com/matheusTA/search_gif_flutter/blob/master/screenshots/screen2.PNG?raw=true" width="180px"/>
+    	<img alt="Flutter app" 
+    src="https://github.com/matheusTA/search_gif_flutter/blob/master/screenshots/screen3.gif?raw=true" width="180px"/>
+</h3>
+
+## Flutter
+
+- [Flutter.dev](https://flutter.dev/)
 
 A new Flutter project.
 
