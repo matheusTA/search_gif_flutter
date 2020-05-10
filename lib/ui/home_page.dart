@@ -20,10 +20,10 @@ class _HomePageState extends State<HomePage> {
 
     if (_search == null || _search.isEmpty) {
       response = await http.get(
-          'https://api.giphy.com/v1/gifs/trending?api_key=gMnRcnabYPKe3PXJW76HbAUXkozoBHqB&limit=20&rating=G');
+          'https://api.giphy.com/v1/gifs/trending?api_key={KEY}&limit=20&rating=G');
     } else {
       response = await http.get(
-          'https://api.giphy.com/v1/gifs/search?api_key=gMnRcnabYPKe3PXJW76HbAUXkozoBHqB&q=$_search&limit=19&offset=$_offset&rating=G&lang=en');
+          'https://api.giphy.com/v1/gifs/search?api_key={KEY}&q=$_search&limit=19&offset=$_offset&rating=G&lang=en');
     }
 
     return json.decode(response.body);
@@ -33,9 +33,7 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
 
-    _getGifs().then((map) {
-      print(map);
-    });
+    _getGifs();
   }
 
   int _getCount(List data) {
