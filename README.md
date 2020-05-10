@@ -1,9 +1,15 @@
-# Search Gif`s
+<h1 align="center">
+  <strong>Search Gif`s</strong>
+</h1> 
 
-> App for searching and sharing gifs!
+<p align="center">
+💻 App for searching and sharing gifs!.
+</p> 
+
+## 🎨 Screens
 
 <h3 align="center">
-<img alt="Flutter app" 
+  <img alt="Flutter app" 
     src="https://github.com/matheusTA/search_gif_flutter/blob/master/screenshots/screen1.PNG?raw=true" width="180px"/>
   <img alt="Flutter App" 
     src="https://github.com/matheusTA/search_gif_flutter/blob/master/screenshots/screen2.PNG?raw=true" width="180px"/>
@@ -11,21 +17,29 @@
     src="https://github.com/matheusTA/search_gif_flutter/blob/master/screenshots/screen3.gif?raw=true" width="180px"/>
 </h3>
 
-## Flutter
+## ✅ Features
+   - List trend gifs
+   - Search gifs
+   - Share gifs
 
-- [Flutter.dev](https://flutter.dev/)
+## 🧰 Tools
 
-A new Flutter project.
+- [Flutter](https://flutter.dev/docs)
+- [Share](https://pub.dev/packages/share)
+- [Http](https://pub.dev/packages/http)
 
-## Getting Started
+## 👩‍🏫 Getting Started
 
-This project is a starting point for a Flutter application.
+- Cloning Project
+  - `git clone https://github.com/matheusTA/search_gif_flutter.git`
+  - `cd search_gif_flutter`
+- Key [GIPHY](https://developers.giphy.com/)
+  - Enter in lib/ui/home_page.dart
+  - Place your key in the urls of lines 23 and 26
+- Install packages
+  - `flutter pub get`
+- [Run app](https://flutter.dev/docs/get-started/test-drive?tab=terminal)
+ 
+## 🙋‍♂️ Author
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **Matheus Antonino** - [MatheusTA](https://github.com/matheusTA)
