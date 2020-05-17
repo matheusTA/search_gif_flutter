@@ -3,7 +3,7 @@
 </h1> 
 
 <p align="center">
-💻 App for searching and sharing gifs!.
+📽 🎞 App for searching and sharing gifs!.
 </p> 
 
 ## 🎨 Screens
